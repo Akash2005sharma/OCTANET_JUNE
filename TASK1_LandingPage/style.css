@@ -1,0 +1,129 @@
+*{
+    border: 0px;
+    margin: 0px;
+}
+.back{
+    height: 90vh;
+    width: 100vw;
+    /* opacity: 0.7; */
+    background-blend-mode:overlay ;
+    background-image: url("https://imgs.search.brave.com/lchyRRPCVwNP2xxgEkQJ7DDd__spVzooQxO8p1fEqHY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9wOTA1/MjUxMDQtNjVkZTEy/OTNhZGIzYi5qcGc_/Y3JvcD0wLjY2OXh3/OjEuMDB4aDswLjE0/MHh3LDAmcmVzaXpl/PTM2MDoq");
+    background-size: max(1200px, 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+
+    
+    
+}
+.main{
+    height: 10vh;
+    /* background-color: rgb(5, 9, 9); */
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    z-index: 20;
+    /* position: fixed; */
+    /* z-index: 20; */
+}
+.main> img{
+    height: 80px;
+    width: 100px;
+}
+.sign{
+    font-size: 25px;
+    font-family: cursive;
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    margin: 5px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /* padding:0px 0px 0px 10px; */
+    background-color: rgba(255, 255, 255, 0.753);
+    /* color: rgb(117, 109, 109); */
+}
+.sign input{
+    height: 46px;
+    width: 300px;
+}
+.main>button{
+    height: 0px;
+    background-color: white;
+}
+button>img{
+    height: 40px;
+    cursor: pointer;
+}
+.front{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    margin-left: 5px;
+    margin-top: 50px;
+    height: 360px;
+    width: 230px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(101, 201, 228);
+}
+.left >div{
+    padding: 7px;
+    /* border: 1px solid black; */
+    font-size: 20px;
+    border-radius: 10px;
+}
+.left a{
+    text-decoration: none;
+    color: black;
+
+}
+.cars{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    z-index: 20;
+    opacity: 1;
+    margin-top: 8vh;
+}
+.cars>div{
+    width: 36vh;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cars img{
+    width: 36vh;
+}
+.login{
+    /* color: white; */
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    font-size: 18px;
+    padding: 10px;
+    /* background-color: blue; */
+    border-radius: 10px;
+    border: 1px solid blue;
+    /* left: 300px; */
+    font-weight: 900;
+    cursor: pointer;
+}
+.Buy{
+    background-color: rgb(101, 201, 228);
+    font-size: 50px;
+    text-align: center;
+    position: sticky;
+    top: 98vw;
+    
+}
